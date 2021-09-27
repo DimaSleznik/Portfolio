@@ -2,11 +2,11 @@
   cursor: pointer;
   font-family: "PT Sans", sans-serif;
   color: rgba(0, 0, 0, 0.637);
-  font-weight: 400;
+  font-weight: 700;
   width: 300px;
   font-size: 0.6em;
   display: flex;
-  margin-right: 20%;
-  justify-content: space-between;
+  margin-right: 10%;
+  justify-content: flex-end;
   background-color: rgba(255, 235, 205, 0.055);
 }
