@@ -1,0 +1,47 @@
+.Skills_title {
+  font-size: calc(30px + 15 * (100vw / 1280));
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.Skills {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Skills_list {
+  font-size: 25px;
+}
+.Skills_list li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  fill: aqua;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../img/svg/next.svg");
+}
+.Skills .img {
+  width: 50%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../img/svg/skills.svg");
+}
+@media (max-width: 600px) {
+  .Skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Skills_list {
+    order: 1;
+  }
+  .Skills .img {
+    width: 80%;
+    height: 200px;
+  }
+}

@@ -1,0 +1,56 @@
+.Footer {
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #666af6;
+}
+.Footer a {
+  font-weight: 400;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+.Footer_github::before {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.534);
+  content: "";
+  background-image: url("../../img/svg/github.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  height: 30px;
+}
+.Footer_telegram::before {
+  border-radius: 50% 25% 50% 50%;
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  background-image: url("../../img/svg/telegram.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  right: 2px;
+  height: 30px;
+}
+.Footer_email::before {
+  border-radius: 50% 25% 50% 50%;
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  background-image: url("../../img/svg/email.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  position: relative;
+  top: 9px;
+  right: 2px;
+  height: 30px;
+}

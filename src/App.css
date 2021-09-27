@@ -1,4 +1,27 @@
 .App {
-  margin-left: 40%;
+  border-radius: 5px;
+  margin: 0px auto;
+  width: 80%;
+  min-height: 1000px;
   font-size: 2em;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(228, 239, 254) 45%,
+    rgb(254, 254, 254)
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    rgb(228, 239, 254) 45%,
+    rgb(254, 254, 254)
+  );
+  background: linear-gradient(
+    180deg,
+    rgb(228, 239, 254) 45%,
+    rgb(254, 254, 254)
+  );
+}
+@media (max-width: 600px) {
+  .App {
+    width: 100%;
+  }
 }

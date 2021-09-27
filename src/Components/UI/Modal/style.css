@@ -1,0 +1,36 @@
+.Modal {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(254, 255, 255, 0.3) 29%,
+    rgb(123, 104, 238, 0.3)
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(254, 255, 255, 0.3) 29%,
+    rgba(123, 104, 238, 0.3)
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(254, 255, 255, 0.3) 29%,
+    rgba(123, 104, 238, 0.3)
+  );
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  transform: scale(0);
+}
+.Modal.active {
+  transform: scale(1);
+}
+.Modal__content {
+  border-radius: 5%;
+  width: 50%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.904);
+}
